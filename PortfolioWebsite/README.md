@@ -1,0 +1,1 @@
+This is the portfolio website which I have created for learning about how the basic portfolio website should be. I have learned about the basic layout during development of basic portfolio. I will update it in the coming days and make it a reliable portfolio for myself which will help me get in touch with lot of people.
