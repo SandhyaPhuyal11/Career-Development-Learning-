@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie List App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie List App</h1>
+    <div class="category-tabs">
+      <button type="button" class="tab-btn active" data-category="trending">Trending</button>
+      <button type="button" class="tab-btn" data-category="top_rated">Top Rated</button>
+      <button type="button" class="tab-btn" data-category="upcoming">Upcoming</button>
+      <button type="button" class="tab-btn" data-category="now_playing">Now Playing</button>
+    </div>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search for a movie..." />
+      <button type="submit">Search</button>
+    </form>
+    <select id="genre-select" class="genre-select">
+      <option value="">All Genres</option>
+    </select>
+    <div id="loader" class="loader hidden"></div>
+    <div id="error-message" class="error-message hidden"></div>
+    <div id="movies" class="movies-grid"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 

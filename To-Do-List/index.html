@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Todo List</h1>
+    <form id="todo-form">
+      <input type="text" id="task-input" placeholder="Add a new task..." required />
+      <select id="priority-input">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="filters">
+      <label for="priority-filter">Filter by Priority:</label>
+      <select id="priority-filter">
+        <option value="All">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+    </div>
+    <ul id="todo-list"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
